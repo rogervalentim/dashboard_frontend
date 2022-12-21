@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@600&family=Inter:wght@400;600;700&family=Josefin+Sans:wght@300&family=Manrope:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 html,
 body,
@@ -8,3 +8,4 @@ body,
   width: 100%;
   font-family: "Inter", sans-serif;
 }
+
