@@ -5,15 +5,28 @@ export const api = createApi({
   reducerPath: "adminApi",
   tagTypes: [
     "User",
+    "Products",
+    "Customers",
+    "Transactions",
+    "Geography",
+    "Sales",
+    "Admins",
+    "Performance",
+    "Dashboard",
   ],
   endpoints: (build) => ({
     getUser: build.query({
       query: (id) => `general/user/${id}`,
       providesTags: ["User"],
     }),
+    getProducts: build.query({
+      query: () => "client/products",
+      providesTags: ["Products"],
+    }),
   }),
 });
 
 export const {
   useGetUserQuery,
+  useGetProductsQuery,
 } = api;

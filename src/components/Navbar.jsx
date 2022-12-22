@@ -5,7 +5,7 @@ import {
   Menu as MenuIcon,
   Search,
   SettingsOutlined,
-  ArrowDropDownOutlined,
+  ArrowDropDownOutlined
 } from "@mui/icons-material";
 import FlexBetween from "components/FlexBetween";
 import { useDispatch } from "react-redux";
@@ -21,7 +21,7 @@ import {
   Toolbar,
   Menu,
   MenuItem,
-  useTheme,
+  useTheme
 } from "@mui/material";
 
 const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
@@ -38,7 +38,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
       sx={{
         position: "static",
         background: "none",
-        boxShadow: "none",
+        boxShadow: "none"
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
@@ -81,7 +81,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
                 justifyContent: "space-between",
                 alignItems: "center",
                 textTransform: "none",
-                gap: "1rem",
+                gap: "1rem"
               }}
             >
               <Box
